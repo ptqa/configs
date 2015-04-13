@@ -9,4 +9,7 @@ set softtabstop=2
 set smartindent
 set autoindent
 filetype indent on
-colorscheme wombat
+colorscheme railscasts
+let g:molokai_original = 1
+set t_Co=256
+
