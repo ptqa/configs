@@ -1,3 +1,4 @@
+term screen-256color
 termcapinfo * ti@:te@
 caption always "%{wb}%-w%{wr}%n %t%{-}%+w %=%{c}%{y}%d::%m::%Y %{g}%c:%s"
 defscrollback 500000
