@@ -10,4 +10,11 @@ set smartindent
 set autoindent
 filetype indent on
 set t_Co=256
-colorscheme railscasts
+if has('gui_running')
+  set background=light 
+else 
+  set background=dark 
+endif 
+set t_Co=16 
+let g:solarized_termcolors=16 
+colorscheme solarized
