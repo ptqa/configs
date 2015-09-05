@@ -123,3 +123,4 @@ export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin
 source ~/.rvm/scripts/rvm
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export TERM=xterm-256color
+export PROMPT_COMMAND='history -a'
