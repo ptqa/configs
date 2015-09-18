@@ -4,8 +4,9 @@ set ignorecase
 set smartcase
 set ruler 
 
-set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
+autocmd Filetype go setlocal ts=4 sw=4 noexpandtab softtabstop=0
+set ts=2 sw=2 expandtab
 set smartindent
 set autoindent
 filetype indent on
@@ -21,6 +22,8 @@ set t_Co=16
 let g:solarized_termcolors=16 
 colorscheme solarized
 execute pathogen#infect()
+execute pathogen#helptags()
+filetype plugin on
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
